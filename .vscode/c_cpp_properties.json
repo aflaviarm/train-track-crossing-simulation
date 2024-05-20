@@ -1,0 +1,23 @@
+{
+    "configurations": [
+        {
+            "name": "Win32",
+            "includePath": [
+                "${workspaceFolder}/**",
+                "${workspaceFolder}/FreeRTOSv10.0.1/FreeRTOS/Demo/WIN32-MSVC/",
+                "${workspaceFolder}/FreeRTOSv10.0.1/FreeRTOS/Source/include/",
+                "${workspaceFolder}/FreeRTOSv10.0.1/FreeRTOS/Source/portable/MSVC-MingW/",
+                "${workspaceFolder}/FreeRTOSv10.0.1/FreeRTOS-Plus/Source/FreeRTOS-Plus-Trace/include/",
+                "${workspaceFolder}/FreeRTOSv10.0.1/FreeRTOS-Plus/Source/FreeRTOS-Plus-Trace/",
+                "${workspaceFolder}/FreeRTOSv10.0.1/FreeRTOS-Plus/Source/FreeRTOS-Plus-Trace/config"
+            ],
+            "defines": [
+                "_DEBUG",
+                "UNICODE",
+                "_UNICODE"
+            ],
+            "compilerPath": "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.39.33519/bin/Hostx64/x64/cl.exe"
+        }
+    ],
+    "version": 4
+}
