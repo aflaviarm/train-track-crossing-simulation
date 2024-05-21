@@ -59,9 +59,27 @@ extern "C" {
  * 
  * Here you may need to include the header file for your processor. This is 
  * required at least for the ARM Cortex-M port, that uses the ARM CMSIS API.
- * Try that in case of build problems. Otherwise, remove the #error line below.
+ * Try that in case of build problems. Otherwise, remove the // // // // // // // // // #define TRC_CFG_HARDWARE_PORT TRC_HARDWARE_PORT_NOT_SET
+// #define TRC_CFG_HARDWARE_PORT TRC_HARDWARE_PORT_NOT_SET
+// #define TRC_CFG_HARDWARE_PORT TRC_HARDWARE_PORT_NOT_SET
+// #define TRC_CFG_HARDWARE_PORT TRC_HARDWARE_PORT_NOT_SET
+// #define TRC_CFG_HARDWARE_PORT TRC_HARDWARE_PORT_NOT_SET
+// #define TRC_CFG_HARDWARE_PORT TRC_HARDWARE_PORT_NOT_SET
+// #define TRC_CFG_HARDWARE_PORT TRC_HARDWARE_PORT_NOT_SET
+// #define TRC_CFG_HARDWARE_PORT TRC_HARDWARE_PORT_NOT_SET
+// #define TRC_CFG_HARDWARE_PORT TRC_HARDWARE_PORT_NOT_SET
+// #error line below.
  *****************************************************************************/
-#error "Trace Recorder: Please include your processor's header file here and remove this line."
+// // // // // // // // // #define TRC_CFG_HARDWARE_PORT TRC_HARDWARE_PORT_NOT_SET
+// #define TRC_CFG_HARDWARE_PORT TRC_HARDWARE_PORT_NOT_SET
+// #define TRC_CFG_HARDWARE_PORT TRC_HARDWARE_PORT_NOT_SET
+// #define TRC_CFG_HARDWARE_PORT TRC_HARDWARE_PORT_NOT_SET
+// #define TRC_CFG_HARDWARE_PORT TRC_HARDWARE_PORT_NOT_SET
+// #define TRC_CFG_HARDWARE_PORT TRC_HARDWARE_PORT_NOT_SET
+// #define TRC_CFG_HARDWARE_PORT TRC_HARDWARE_PORT_NOT_SET
+// #define TRC_CFG_HARDWARE_PORT TRC_HARDWARE_PORT_NOT_SET
+// #define TRC_CFG_HARDWARE_PORT TRC_HARDWARE_PORT_NOT_SET
+// #error "Trace Recorder: Please include your processor's header file here and remove this line."
 
 /*******************************************************************************
  * Configuration Macro: TRC_CFG_HARDWARE_PORT
@@ -81,7 +99,7 @@ extern "C" {
  * See trcHardwarePort.h for available ports and information on how to 
  * define your own port, if not already present.
  ******************************************************************************/
-#define TRC_CFG_HARDWARE_PORT TRC_HARDWARE_PORT_NOT_SET
+#define TRC_CFG_HARDWARE_PORT TRC_HARDWARE_PORT_Win32
 
 /*******************************************************************************
  * Configuration Macro: TRC_CFG_RECORDER_MODE

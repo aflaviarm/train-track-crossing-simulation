@@ -1,13 +1,15 @@
 cmake_minimum_required(VERSION 3.5)
 project(TrainTrackCrossingSimulation)
 
+
 # Include FreeRTOS source and port files
-include_directories(FreeRTOSv10.0.1/FreeRTOS/Source/include 
-                    FreeRTOSv10.0.1/FreeRTOS/Source/portable/MSVC-MingW 
-		            FreeRTOSv10.0.1/FreeRTOS-Plus/Source/FreeRTOS-Plus-Trace/include 
-                    FreeRTOSv10.0.1/FreeRTOS-Plus/Source/FreeRTOS-Plus-Trace 
-                    FreeRTOSv10.0.1/FreeRTOS/Demo/WIN32-MSVC 
-                    FreeRTOSv10.0.1/FreeRTOS-Plus/Source/FreeRTOS-Plus-Trace/config)
+include_directories(
+    FreeRTOSv10.0.1/FreeRTOS/Source/include 
+    FreeRTOSv10.0.1/FreeRTOS/Source/portable/MSVC-MingW 
+    FreeRTOSv10.0.1/FreeRTOS-Plus/Source/FreeRTOS-Plus-Trace/include 
+    FreeRTOSv10.0.1/FreeRTOS-Plus/Source/FreeRTOS-Plus-Trace/config 
+    FreeRTOSv10.0.1/FreeRTOS/Demo/WIN32-MSVC
+)
 
 # Add your source files
 set(SOURCE_FILES 
@@ -28,6 +30,9 @@ set(FREERTOS_SOURCE_FILES
 
 # Create an executable target
 add_executable(${PROJECT_NAME} ${SOURCE_FILES} ${FREERTOS_SOURCE_FILES})
+
+# Set compiler flags
+set(CMAKE_C_FLAGS "${CMAKE_C_FLAGS} -Wall")
 
 # Set optimization level
 set(CMAKE_C_FLAGS_RELEASE "-O3")

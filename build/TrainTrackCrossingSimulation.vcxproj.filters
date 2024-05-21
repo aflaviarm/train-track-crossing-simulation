@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\aflav\OneDrive\Documentos\GitHub\train-track-crossing-simulation\src\main.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\aflav\OneDrive\Documentos\GitHub\train-track-crossing-simulation\FreeRTOSv10.0.1\FreeRTOS\Source\croutine.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\aflav\OneDrive\Documentos\GitHub\train-track-crossing-simulation\FreeRTOSv10.0.1\FreeRTOS\Source\event_groups.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\aflav\OneDrive\Documentos\GitHub\train-track-crossing-simulation\FreeRTOSv10.0.1\FreeRTOS\Source\list.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\aflav\OneDrive\Documentos\GitHub\train-track-crossing-simulation\FreeRTOSv10.0.1\FreeRTOS\Source\queue.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\aflav\OneDrive\Documentos\GitHub\train-track-crossing-simulation\FreeRTOSv10.0.1\FreeRTOS\Source\tasks.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\aflav\OneDrive\Documentos\GitHub\train-track-crossing-simulation\FreeRTOSv10.0.1\FreeRTOS\Source\timers.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\aflav\OneDrive\Documentos\GitHub\train-track-crossing-simulation\FreeRTOSv10.0.1\FreeRTOS\Source\portable\MemMang\heap_4.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\aflav\OneDrive\Documentos\GitHub\train-track-crossing-simulation\FreeRTOSv10.0.1\FreeRTOS\Source\portable\MSVC-MingW\port.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\aflav\OneDrive\Documentos\GitHub\train-track-crossing-simulation\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{BA3833DA-56F2-35A9-9E3C-64D3FB7B0D0A}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

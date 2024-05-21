@@ -1,0 +1,3 @@
+C:/Users/aflav/OneDrive/Documentos/GitHub/train-track-crossing-simulation/build/CMakeFiles/TrainTrackCrossingSimulation.dir
+C:/Users/aflav/OneDrive/Documentos/GitHub/train-track-crossing-simulation/build/CMakeFiles/ALL_BUILD.dir
+C:/Users/aflav/OneDrive/Documentos/GitHub/train-track-crossing-simulation/build/CMakeFiles/ZERO_CHECK.dir

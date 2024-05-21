@@ -9,7 +9,7 @@
                 "${workspaceFolder}/FreeRTOSv10.0.1/FreeRTOS/Source/portable/MSVC-MingW/",
                 "${workspaceFolder}/FreeRTOSv10.0.1/FreeRTOS-Plus/Source/FreeRTOS-Plus-Trace/include/",
                 "${workspaceFolder}/FreeRTOSv10.0.1/FreeRTOS-Plus/Source/FreeRTOS-Plus-Trace/",
-                "${workspaceFolder}/FreeRTOSv10.0.1/FreeRTOS-Plus/Source/FreeRTOS-Plus-Trace/config"
+                "${workspaceFolder}/FreeRTOSv10.0.1/FreeRTOS-Plus/Source/FreeRTOS-Plus-Trace/config/"
             ],
             "defines": [
                 "_DEBUG",

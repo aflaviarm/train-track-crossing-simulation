@@ -35,7 +35,12 @@ cd train-track-crossing-simulation
 1. Crie uma pasta build na raiz do projeto e navegue até ela:
 
 ```bash
-mkdir build
+if (Test-Path -Path "build") {
+    Remove-Item -Recurse -Force "build/*"
+} else {
+    New-Item -ItemType Directory -Path "build"
+}
+
 cd build
 ```
 

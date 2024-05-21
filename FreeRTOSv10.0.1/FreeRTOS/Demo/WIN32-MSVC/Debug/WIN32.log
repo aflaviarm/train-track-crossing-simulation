@@ -1,4 +1,183 @@
-﻿cl : Command line warning D9002: ignoring unknown option '/wc4574'
+﻿cl : linha de comando  warning D9035: opção 'Gm' foi preterida e será removida em uma versão futura
+cl : linha de comando  warning D9002: ignorando opção desconhecida '/wc4574'
+  Run-time-stats-utils.c
+  main_full.c
+  main_blinky.c
+  tasks.c
+  queue.c
+C:\Users\aflav\OneDrive\Documentos\GitHub\train-track-crossing-simulation\FreeRTOSv10.0.1\FreeRTOS\Source\tasks.c(4231,5): warning C4061: enumerador 'eInvalid' em switch de enumeração 'eTaskState' não é manipulado explicitamente por um rótulo case
+  C:\Users\aflav\OneDrive\Documentos\GitHub\train-track-crossing-simulation\FreeRTOSv10.0.1\FreeRTOS\Source\include\task.h(71,1):
+  consulte a declaração de 'eTaskState'
+  
+  port.c
+C:\Users\aflav\OneDrive\Documentos\GitHub\train-track-crossing-simulation\FreeRTOSv10.0.1\FreeRTOS\Source\portable\MSVC-MingW\port.c(225,60): warning C4191: 'conversão de tipo': conversão não segura de 'TaskFunction_t' to 'LPTHREAD_START_ROUTINE'
+C:\Users\aflav\OneDrive\Documentos\GitHub\train-track-crossing-simulation\FreeRTOSv10.0.1\FreeRTOS\Source\portable\MSVC-MingW\port.c(225,60): warning C4191:         . Fazer uma chamada de função usando o ponteiro resultante pode causar falha no programa
+  list.c
   main.c
-c:\users\simon\downloads\freertosv10.0.1\freertosv10.0.1\freertos\demo\win32-msvc\main.c(153): warning C4702: unreachable code
-  WIN32.vcxproj -> C:\Users\Simon\Downloads\FreeRTOSv10.0.1\FreeRTOSv10.0.1\FreeRTOS\Demo\WIN32-MSVC\.\Debug\RTOSDemo.exe
+  timerdemo.c
+  TaskNotify.c
+  StreamBufferInterrupt.c
+  StreamBufferDemo.c
+  MessageBufferDemo.c
+  StaticAllocation.c
+  semtest.c
+  recmutex.c
+  QueueSetPolling.c
+  QueueSet.c
+  QueueOverwrite.c
+  QPeek.c
+  Gerando Código...
+C:\Users\aflav\OneDrive\Documentos\GitHub\train-track-crossing-simulation\FreeRTOSv10.0.1\FreeRTOS\Demo\Common\Minimal\QueueSet.c(620): warning C5045: O compilador inserirá a mitigação de espectro para carga de memória se a opção /Qspectre for especificada
+  C:\Users\aflav\OneDrive\Documentos\GitHub\train-track-crossing-simulation\FreeRTOSv10.0.1\FreeRTOS\Demo\Common\Minimal\QueueSet.c(614) : observação: o intervalo 'x' do índice verificado por comparação nessa linha
+  C:\Users\aflav\OneDrive\Documentos\GitHub\train-track-crossing-simulation\FreeRTOSv10.0.1\FreeRTOS\Demo\Common\Minimal\QueueSet.c(620) : observação: chamada a feeds nessa linha
+C:\Users\aflav\OneDrive\Documentos\GitHub\train-track-crossing-simulation\FreeRTOSv10.0.1\FreeRTOS\Demo\Common\Minimal\MessageBufferDemo.c(336): warning C5045: O compilador inserirá a mitigação de espectro para carga de memória se a opção /Qspectre for especificada
+  C:\Users\aflav\OneDrive\Documentos\GitHub\train-track-crossing-simulation\FreeRTOSv10.0.1\FreeRTOS\Demo\Common\Minimal\MessageBufferDemo.c(313) : observação: o intervalo 'xItem' do índice verificado por comparação nessa linha
+  C:\Users\aflav\OneDrive\Documentos\GitHub\train-track-crossing-simulation\FreeRTOSv10.0.1\FreeRTOS\Demo\Common\Minimal\MessageBufferDemo.c(336) : observação: chamada a feeds nessa linha
+C:\Users\aflav\OneDrive\Documentos\GitHub\train-track-crossing-simulation\FreeRTOSv10.0.1\FreeRTOS\Demo\Common\Minimal\MessageBufferDemo.c(272): warning C5045: O compilador inserirá a mitigação de espectro para carga de memória se a opção /Qspectre for especificada
+  C:\Users\aflav\OneDrive\Documentos\GitHub\train-track-crossing-simulation\FreeRTOSv10.0.1\FreeRTOS\Demo\Common\Minimal\MessageBufferDemo.c(246) : observação: o intervalo 'xItem' do índice verificado por comparação nessa linha
+  C:\Users\aflav\OneDrive\Documentos\GitHub\train-track-crossing-simulation\FreeRTOSv10.0.1\FreeRTOS\Demo\Common\Minimal\MessageBufferDemo.c(272) : observação: chamada a feeds nessa linha
+C:\Users\aflav\OneDrive\Documentos\GitHub\train-track-crossing-simulation\FreeRTOSv10.0.1\FreeRTOS\Demo\Common\Minimal\MessageBufferDemo.c(205): warning C5045: O compilador inserirá a mitigação de espectro para carga de memória se a opção /Qspectre for especificada
+  C:\Users\aflav\OneDrive\Documentos\GitHub\train-track-crossing-simulation\FreeRTOSv10.0.1\FreeRTOS\Demo\Common\Minimal\MessageBufferDemo.c(191) : observação: o intervalo 'xItem' do índice verificado por comparação nessa linha
+  C:\Users\aflav\OneDrive\Documentos\GitHub\train-track-crossing-simulation\FreeRTOSv10.0.1\FreeRTOS\Demo\Common\Minimal\MessageBufferDemo.c(205) : observação: chamada a feeds nessa linha
+C:\Users\aflav\OneDrive\Documentos\GitHub\train-track-crossing-simulation\FreeRTOSv10.0.1\FreeRTOS\Demo\Common\Minimal\StreamBufferDemo.c(401): warning C5045: O compilador inserirá a mitigação de espectro para carga de memória se a opção /Qspectre for especificada
+  C:\Users\aflav\OneDrive\Documentos\GitHub\train-track-crossing-simulation\FreeRTOSv10.0.1\FreeRTOS\Demo\Common\Minimal\StreamBufferDemo.c(397) : observação: o intervalo 'xItem' do índice verificado por comparação nessa linha
+  C:\Users\aflav\OneDrive\Documentos\GitHub\train-track-crossing-simulation\FreeRTOSv10.0.1\FreeRTOS\Demo\Common\Minimal\StreamBufferDemo.c(401) : observação: chamada a feeds nessa linha
+C:\Users\aflav\OneDrive\Documentos\GitHub\train-track-crossing-simulation\FreeRTOSv10.0.1\FreeRTOS\Demo\Common\Minimal\StreamBufferDemo.c(374): warning C5045: O compilador inserirá a mitigação de espectro para carga de memória se a opção /Qspectre for especificada
+  C:\Users\aflav\OneDrive\Documentos\GitHub\train-track-crossing-simulation\FreeRTOSv10.0.1\FreeRTOS\Demo\Common\Minimal\StreamBufferDemo.c(370) : observação: o intervalo 'xItem' do índice verificado por comparação nessa linha
+  C:\Users\aflav\OneDrive\Documentos\GitHub\train-track-crossing-simulation\FreeRTOSv10.0.1\FreeRTOS\Demo\Common\Minimal\StreamBufferDemo.c(374) : observação: chamada a feeds nessa linha
+C:\Users\aflav\OneDrive\Documentos\GitHub\train-track-crossing-simulation\FreeRTOSv10.0.1\FreeRTOS\Demo\Common\Minimal\StreamBufferDemo.c(352): warning C5045: O compilador inserirá a mitigação de espectro para carga de memória se a opção /Qspectre for especificada
+  C:\Users\aflav\OneDrive\Documentos\GitHub\train-track-crossing-simulation\FreeRTOSv10.0.1\FreeRTOS\Demo\Common\Minimal\StreamBufferDemo.c(329) : observação: o intervalo 'xItem' do índice verificado por comparação nessa linha
+  C:\Users\aflav\OneDrive\Documentos\GitHub\train-track-crossing-simulation\FreeRTOSv10.0.1\FreeRTOS\Demo\Common\Minimal\StreamBufferDemo.c(352) : observação: chamada a feeds nessa linha
+C:\Users\aflav\OneDrive\Documentos\GitHub\train-track-crossing-simulation\FreeRTOSv10.0.1\FreeRTOS\Demo\Common\Minimal\StreamBufferDemo.c(296): warning C5045: O compilador inserirá a mitigação de espectro para carga de memória se a opção /Qspectre for especificada
+  C:\Users\aflav\OneDrive\Documentos\GitHub\train-track-crossing-simulation\FreeRTOSv10.0.1\FreeRTOS\Demo\Common\Minimal\StreamBufferDemo.c(278) : observação: o intervalo 'xItem' do índice verificado por comparação nessa linha
+  C:\Users\aflav\OneDrive\Documentos\GitHub\train-track-crossing-simulation\FreeRTOSv10.0.1\FreeRTOS\Demo\Common\Minimal\StreamBufferDemo.c(296) : observação: chamada a feeds nessa linha
+C:\Users\aflav\OneDrive\Documentos\GitHub\train-track-crossing-simulation\FreeRTOSv10.0.1\FreeRTOS\Demo\Common\Minimal\StreamBufferDemo.c(235): warning C5045: O compilador inserirá a mitigação de espectro para carga de memória se a opção /Qspectre for especificada
+  C:\Users\aflav\OneDrive\Documentos\GitHub\train-track-crossing-simulation\FreeRTOSv10.0.1\FreeRTOS\Demo\Common\Minimal\StreamBufferDemo.c(222) : observação: o intervalo 'xItem' do índice verificado por comparação nessa linha
+  C:\Users\aflav\OneDrive\Documentos\GitHub\train-track-crossing-simulation\FreeRTOSv10.0.1\FreeRTOS\Demo\Common\Minimal\StreamBufferDemo.c(235) : observação: chamada a feeds nessa linha
+C:\Users\aflav\OneDrive\Documentos\GitHub\train-track-crossing-simulation\FreeRTOSv10.0.1\FreeRTOS\Demo\Common\Minimal\TaskNotify.c(370): warning C5045: O compilador inserirá a mitigação de espectro para carga de memória se a opção /Qspectre for especificada
+  C:\Users\aflav\OneDrive\Documentos\GitHub\train-track-crossing-simulation\FreeRTOSv10.0.1\FreeRTOS\Demo\Common\Minimal\TaskNotify.c(365) : observação: o intervalo 'ulLoop' do índice verificado por comparação nessa linha
+  C:\Users\aflav\OneDrive\Documentos\GitHub\train-track-crossing-simulation\FreeRTOSv10.0.1\FreeRTOS\Demo\Common\Minimal\TaskNotify.c(370) : observação: chamada a feeds nessa linha
+C:\Users\aflav\OneDrive\Documentos\GitHub\train-track-crossing-simulation\FreeRTOSv10.0.1\FreeRTOS\Demo\Common\Minimal\timerdemo.c(337): warning C5045: O compilador inserirá a mitigação de espectro para carga de memória se a opção /Qspectre for especificada
+  C:\Users\aflav\OneDrive\Documentos\GitHub\train-track-crossing-simulation\FreeRTOSv10.0.1\FreeRTOS\Demo\Common\Minimal\timerdemo.c(335) : observação: o intervalo '' do índice verificado por comparação nessa linha
+  C:\Users\aflav\OneDrive\Documentos\GitHub\train-track-crossing-simulation\FreeRTOSv10.0.1\FreeRTOS\Demo\Common\Minimal\timerdemo.c(337) : observação: chamada a feeds nessa linha
+C:\Users\aflav\OneDrive\Documentos\GitHub\train-track-crossing-simulation\FreeRTOSv10.0.1\FreeRTOS\Demo\Common\Minimal\timerdemo.c(250): warning C5045: O compilador inserirá a mitigação de espectro para carga de memória se a opção /Qspectre for especificada
+  C:\Users\aflav\OneDrive\Documentos\GitHub\train-track-crossing-simulation\FreeRTOSv10.0.1\FreeRTOS\Demo\Common\Minimal\timerdemo.c(244) : observação: o intervalo 'xTimer' do índice verificado por comparação nessa linha
+  C:\Users\aflav\OneDrive\Documentos\GitHub\train-track-crossing-simulation\FreeRTOSv10.0.1\FreeRTOS\Demo\Common\Minimal\timerdemo.c(250) : observação: chamada a feeds nessa linha
+C:\Users\aflav\OneDrive\Documentos\GitHub\train-track-crossing-simulation\FreeRTOSv10.0.1\FreeRTOS\Demo\Common\Minimal\timerdemo.c(425): warning C5045: O compilador inserirá a mitigação de espectro para carga de memória se a opção /Qspectre for especificada
+  C:\Users\aflav\OneDrive\Documentos\GitHub\train-track-crossing-simulation\FreeRTOSv10.0.1\FreeRTOS\Demo\Common\Minimal\timerdemo.c(410) : observação: o intervalo '' do índice verificado por comparação nessa linha
+  C:\Users\aflav\OneDrive\Documentos\GitHub\train-track-crossing-simulation\FreeRTOSv10.0.1\FreeRTOS\Demo\Common\Minimal\timerdemo.c(425) : observação: chamada a feeds nessa linha
+C:\Users\aflav\OneDrive\Documentos\GitHub\train-track-crossing-simulation\FreeRTOSv10.0.1\FreeRTOS\Demo\Common\Minimal\timerdemo.c(671): warning C5045: O compilador inserirá a mitigação de espectro para carga de memória se a opção /Qspectre for especificada
+  C:\Users\aflav\OneDrive\Documentos\GitHub\train-track-crossing-simulation\FreeRTOSv10.0.1\FreeRTOS\Demo\Common\Minimal\timerdemo.c(656) : observação: o intervalo '' do índice verificado por comparação nessa linha
+  C:\Users\aflav\OneDrive\Documentos\GitHub\train-track-crossing-simulation\FreeRTOSv10.0.1\FreeRTOS\Demo\Common\Minimal\timerdemo.c(671) : observação: chamada a feeds nessa linha
+C:\Users\aflav\OneDrive\Documentos\GitHub\train-track-crossing-simulation\FreeRTOSv10.0.1\FreeRTOS\Demo\WIN32-MSVC\main.c(153,1): warning C4702: código inacessível
+C:\Users\aflav\OneDrive\Documentos\GitHub\train-track-crossing-simulation\FreeRTOSv10.0.1\FreeRTOS\Source\queue.c(2432): warning C5045: O compilador inserirá a mitigação de espectro para carga de memória se a opção /Qspectre for especificada
+  C:\Users\aflav\OneDrive\Documentos\GitHub\train-track-crossing-simulation\FreeRTOSv10.0.1\FreeRTOS\Source\queue.c(2428) : observação: o intervalo 'xTicksToWait' do índice verificado por comparação nessa linha
+  C:\Users\aflav\OneDrive\Documentos\GitHub\train-track-crossing-simulation\FreeRTOSv10.0.1\FreeRTOS\Source\queue.c(2432) : observação: chamada a feeds nessa linha
+C:\Users\aflav\OneDrive\Documentos\GitHub\train-track-crossing-simulation\FreeRTOSv10.0.1\FreeRTOS\Source\queue.c(2355): warning C5045: O compilador inserirá a mitigação de espectro para carga de memória se a opção /Qspectre for especificada
+  C:\Users\aflav\OneDrive\Documentos\GitHub\train-track-crossing-simulation\FreeRTOSv10.0.1\FreeRTOS\Source\queue.c(2351) : observação: o intervalo 'xTicksToWait' do índice verificado por comparação nessa linha
+  C:\Users\aflav\OneDrive\Documentos\GitHub\train-track-crossing-simulation\FreeRTOSv10.0.1\FreeRTOS\Source\queue.c(2355) : observação: chamada a feeds nessa linha
+C:\Users\aflav\OneDrive\Documentos\GitHub\train-track-crossing-simulation\FreeRTOSv10.0.1\FreeRTOS\Source\queue.c(2652): warning C5045: O compilador inserirá a mitigação de espectro para carga de memória se a opção /Qspectre for especificada
+  C:\Users\aflav\OneDrive\Documentos\GitHub\train-track-crossing-simulation\FreeRTOSv10.0.1\FreeRTOS\Source\queue.c(2648) : observação: o intervalo 'ux' do índice verificado por comparação nessa linha
+  C:\Users\aflav\OneDrive\Documentos\GitHub\train-track-crossing-simulation\FreeRTOSv10.0.1\FreeRTOS\Source\queue.c(2661) : observação: chamada a feeds nessa linha
+C:\Users\aflav\OneDrive\Documentos\GitHub\train-track-crossing-simulation\FreeRTOSv10.0.1\FreeRTOS\Source\tasks.c(1307): warning C5045: O compilador inserirá a mitigação de espectro para carga de memória se a opção /Qspectre for especificada
+  C:\Users\aflav\OneDrive\Documentos\GitHub\train-track-crossing-simulation\FreeRTOSv10.0.1\FreeRTOS\Source\tasks.c(1293) : observação: o intervalo 'xTicksToDelay' do índice verificado por comparação nessa linha
+  C:\Users\aflav\OneDrive\Documentos\GitHub\train-track-crossing-simulation\FreeRTOSv10.0.1\FreeRTOS\Source\tasks.c(1307) : observação: chamada a feeds nessa linha
+C:\Users\aflav\OneDrive\Documentos\GitHub\train-track-crossing-simulation\FreeRTOSv10.0.1\FreeRTOS\Source\tasks.c(4328): warning C5045: O compilador inserirá a mitigação de espectro para carga de memória se a opção /Qspectre for especificada
+  C:\Users\aflav\OneDrive\Documentos\GitHub\train-track-crossing-simulation\FreeRTOSv10.0.1\FreeRTOS\Source\tasks.c(4318) : observação: o intervalo '' do índice verificado por comparação nessa linha
+  C:\Users\aflav\OneDrive\Documentos\GitHub\train-track-crossing-simulation\FreeRTOSv10.0.1\FreeRTOS\Source\tasks.c(4340) : observação: chamada a feeds nessa linha
+C:\Users\aflav\OneDrive\Documentos\GitHub\train-track-crossing-simulation\FreeRTOSv10.0.1\FreeRTOS\Source\tasks.c(4430): warning C5045: O compilador inserirá a mitigação de espectro para carga de memória se a opção /Qspectre for especificada
+  C:\Users\aflav\OneDrive\Documentos\GitHub\train-track-crossing-simulation\FreeRTOSv10.0.1\FreeRTOS\Source\tasks.c(4427) : observação: o intervalo 'xTicksToWait' do índice verificado por comparação nessa linha
+  C:\Users\aflav\OneDrive\Documentos\GitHub\train-track-crossing-simulation\FreeRTOSv10.0.1\FreeRTOS\Source\tasks.c(4430) : observação: chamada a feeds nessa linha
+C:\Users\aflav\OneDrive\Documentos\GitHub\train-track-crossing-simulation\FreeRTOSv10.0.1\FreeRTOS\Source\tasks.c(4503): warning C5045: O compilador inserirá a mitigação de espectro para carga de memória se a opção /Qspectre for especificada
+  C:\Users\aflav\OneDrive\Documentos\GitHub\train-track-crossing-simulation\FreeRTOSv10.0.1\FreeRTOS\Source\tasks.c(4500) : observação: o intervalo 'xTicksToWait' do índice verificado por comparação nessa linha
+  C:\Users\aflav\OneDrive\Documentos\GitHub\train-track-crossing-simulation\FreeRTOSv10.0.1\FreeRTOS\Source\tasks.c(4503) : observação: chamada a feeds nessa linha
+C:\Users\aflav\OneDrive\Documentos\GitHub\train-track-crossing-simulation\FreeRTOSv10.0.1\FreeRTOS\Source\tasks.c(3442): warning C5045: O compilador inserirá a mitigação de espectro para carga de memória se a opção /Qspectre for especificada
+  C:\Users\aflav\OneDrive\Documentos\GitHub\train-track-crossing-simulation\FreeRTOSv10.0.1\FreeRTOS\Source\tasks.c(3440) : observação: o intervalo 'uxPriority' do índice verificado por comparação nessa linha
+  C:\Users\aflav\OneDrive\Documentos\GitHub\train-track-crossing-simulation\FreeRTOSv10.0.1\FreeRTOS\Source\tasks.c(3442) : observação: chamada a feeds nessa linha
+  Compilando...
+  PollQ.c
+  MessageBufferAMP.c
+  IntSemTest.c
+  integer.c
+  GenQTest.c
+  flop.c
+  EventGroupsDemo.c
+  dynamic.c
+  death.c
+  countsem.c
+  blocktim.c
+  BlockQ.c
+  AbortDelay.c
+  timers.c
+  stream_buffer.c
+  heap_5.c
+  event_groups.c
+  croutine.c
+  trcSnapshotRecorder.c
+  trcKernelPort.c
+  Gerando Código...
+C:\Users\aflav\OneDrive\Documentos\GitHub\train-track-crossing-simulation\FreeRTOSv10.0.1\FreeRTOS-Plus\Source\FreeRTOS-Plus-Trace\trcSnapshotRecorder.c(2326): warning C5045: O compilador inserirá a mitigação de espectro para carga de memória se a opção /Qspectre for especificada
+  C:\Users\aflav\OneDrive\Documentos\GitHub\train-track-crossing-simulation\FreeRTOSv10.0.1\FreeRTOS-Plus\Source\FreeRTOS-Plus-Trace\trcSnapshotRecorder.c(2323) : observação: o intervalo '' do índice verificado por comparação nessa linha
+  C:\Users\aflav\OneDrive\Documentos\GitHub\train-track-crossing-simulation\FreeRTOSv10.0.1\FreeRTOS-Plus\Source\FreeRTOS-Plus-Trace\trcSnapshotRecorder.c(2326) : observação: chamada a feeds nessa linha
+C:\Users\aflav\OneDrive\Documentos\GitHub\train-track-crossing-simulation\FreeRTOSv10.0.1\FreeRTOS-Plus\Source\FreeRTOS-Plus-Trace\trcSnapshotRecorder.c(1863): warning C5045: O compilador inserirá a mitigação de espectro para carga de memória se a opção /Qspectre for especificada
+  C:\Users\aflav\OneDrive\Documentos\GitHub\train-track-crossing-simulation\FreeRTOSv10.0.1\FreeRTOS-Plus\Source\FreeRTOS-Plus-Trace\trcSnapshotRecorder.c(1861) : observação: o intervalo 'param' do índice verificado por comparação nessa linha
+  C:\Users\aflav\OneDrive\Documentos\GitHub\train-track-crossing-simulation\FreeRTOSv10.0.1\FreeRTOS-Plus\Source\FreeRTOS-Plus-Trace\trcSnapshotRecorder.c(1863) : observação: chamada a feeds nessa linha
+C:\Users\aflav\OneDrive\Documentos\GitHub\train-track-crossing-simulation\FreeRTOSv10.0.1\FreeRTOS-Plus\Source\FreeRTOS-Plus-Trace\trcSnapshotRecorder.c(2588): warning C5045: O compilador inserirá a mitigação de espectro para carga de memória se a opção /Qspectre for especificada
+  C:\Users\aflav\OneDrive\Documentos\GitHub\train-track-crossing-simulation\FreeRTOSv10.0.1\FreeRTOS-Plus\Source\FreeRTOS-Plus-Trace\trcSnapshotRecorder.c(2586) : observação: o intervalo '' do índice verificado por comparação nessa linha
+  C:\Users\aflav\OneDrive\Documentos\GitHub\train-track-crossing-simulation\FreeRTOSv10.0.1\FreeRTOS-Plus\Source\FreeRTOS-Plus-Trace\trcSnapshotRecorder.c(2588) : observação: chamada a feeds nessa linha
+C:\Users\aflav\OneDrive\Documentos\GitHub\train-track-crossing-simulation\FreeRTOSv10.0.1\FreeRTOS\Source\croutine.c(314): warning C5045: O compilador inserirá a mitigação de espectro para carga de memória se a opção /Qspectre for especificada
+  C:\Users\aflav\OneDrive\Documentos\GitHub\train-track-crossing-simulation\FreeRTOSv10.0.1\FreeRTOS\Source\croutine.c(312) : observação: o intervalo 'uxPriority' do índice verificado por comparação nessa linha
+  C:\Users\aflav\OneDrive\Documentos\GitHub\train-track-crossing-simulation\FreeRTOSv10.0.1\FreeRTOS\Source\croutine.c(314) : observação: chamada a feeds nessa linha
+C:\Users\aflav\OneDrive\Documentos\GitHub\train-track-crossing-simulation\FreeRTOSv10.0.1\FreeRTOS\Source\portable\MemMang\heap_5.c(212): warning C5045: O compilador inserirá a mitigação de espectro para carga de memória se a opção /Qspectre for especificada
+  C:\Users\aflav\OneDrive\Documentos\GitHub\train-track-crossing-simulation\FreeRTOSv10.0.1\FreeRTOS\Source\portable\MemMang\heap_5.c(198) : observação: o intervalo '' do índice verificado por comparação nessa linha
+  C:\Users\aflav\OneDrive\Documentos\GitHub\train-track-crossing-simulation\FreeRTOSv10.0.1\FreeRTOS\Source\portable\MemMang\heap_5.c(212) : observação: chamada a feeds nessa linha
+C:\Users\aflav\OneDrive\Documentos\GitHub\train-track-crossing-simulation\FreeRTOSv10.0.1\FreeRTOS\Source\stream_buffer.c(621): warning C5045: O compilador inserirá a mitigação de espectro para carga de memória se a opção /Qspectre for especificada
+  C:\Users\aflav\OneDrive\Documentos\GitHub\train-track-crossing-simulation\FreeRTOSv10.0.1\FreeRTOS\Source\stream_buffer.c(619) : observação: o intervalo '' do índice verificado por comparação nessa linha
+  C:\Users\aflav\OneDrive\Documentos\GitHub\train-track-crossing-simulation\FreeRTOSv10.0.1\FreeRTOS\Source\stream_buffer.c(621) : observação: chamada a feeds nessa linha
+C:\Users\aflav\OneDrive\Documentos\GitHub\train-track-crossing-simulation\FreeRTOSv10.0.1\FreeRTOS\Source\stream_buffer.c(571): warning C5045: O compilador inserirá a mitigação de espectro para carga de memória se a opção /Qspectre for especificada
+  C:\Users\aflav\OneDrive\Documentos\GitHub\train-track-crossing-simulation\FreeRTOSv10.0.1\FreeRTOS\Source\stream_buffer.c(569) : observação: o intervalo '' do índice verificado por comparação nessa linha
+  C:\Users\aflav\OneDrive\Documentos\GitHub\train-track-crossing-simulation\FreeRTOSv10.0.1\FreeRTOS\Source\stream_buffer.c(571) : observação: chamada a feeds nessa linha
+C:\Users\aflav\OneDrive\Documentos\GitHub\train-track-crossing-simulation\FreeRTOSv10.0.1\FreeRTOS\Source\stream_buffer.c(834): warning C5045: O compilador inserirá a mitigação de espectro para carga de memória se a opção /Qspectre for especificada
+  C:\Users\aflav\OneDrive\Documentos\GitHub\train-track-crossing-simulation\FreeRTOSv10.0.1\FreeRTOS\Source\stream_buffer.c(827) : observação: o intervalo 'xBytesAvailable' do índice verificado por comparação nessa linha
+  C:\Users\aflav\OneDrive\Documentos\GitHub\train-track-crossing-simulation\FreeRTOSv10.0.1\FreeRTOS\Source\stream_buffer.c(834) : observação: chamada a feeds nessa linha
+C:\Users\aflav\OneDrive\Documentos\GitHub\train-track-crossing-simulation\FreeRTOSv10.0.1\FreeRTOS\Source\stream_buffer.c(829): warning C5045: O compilador inserirá a mitigação de espectro para carga de memória se a opção /Qspectre for especificada
+  C:\Users\aflav\OneDrive\Documentos\GitHub\train-track-crossing-simulation\FreeRTOSv10.0.1\FreeRTOS\Source\stream_buffer.c(827) : observação: o intervalo 'xBytesAvailable' do índice verificado por comparação nessa linha
+  C:\Users\aflav\OneDrive\Documentos\GitHub\train-track-crossing-simulation\FreeRTOSv10.0.1\FreeRTOS\Source\stream_buffer.c(829) : observação: chamada a feeds nessa linha
+C:\Users\aflav\OneDrive\Documentos\GitHub\train-track-crossing-simulation\FreeRTOSv10.0.1\FreeRTOS\Source\stream_buffer.c(569): warning C5045: O compilador inserirá a mitigação de espectro para carga de memória se a opção /Qspectre for especificada
+  C:\Users\aflav\OneDrive\Documentos\GitHub\train-track-crossing-simulation\FreeRTOSv10.0.1\FreeRTOS\Source\stream_buffer.c(564) : observação: o intervalo 'xReturn' do índice verificado por comparação nessa linha
+  C:\Users\aflav\OneDrive\Documentos\GitHub\train-track-crossing-simulation\FreeRTOSv10.0.1\FreeRTOS\Source\stream_buffer.c(569) : observação: chamada a feeds nessa linha
+C:\Users\aflav\OneDrive\Documentos\GitHub\train-track-crossing-simulation\FreeRTOSv10.0.1\FreeRTOS\Source\stream_buffer.c(619): warning C5045: O compilador inserirá a mitigação de espectro para carga de memória se a opção /Qspectre for especificada
+  C:\Users\aflav\OneDrive\Documentos\GitHub\train-track-crossing-simulation\FreeRTOSv10.0.1\FreeRTOS\Source\stream_buffer.c(616) : observação: o intervalo 'xReturn' do índice verificado por comparação nessa linha
+  C:\Users\aflav\OneDrive\Documentos\GitHub\train-track-crossing-simulation\FreeRTOSv10.0.1\FreeRTOS\Source\stream_buffer.c(619) : observação: chamada a feeds nessa linha
+C:\Users\aflav\OneDrive\Documentos\GitHub\train-track-crossing-simulation\FreeRTOSv10.0.1\FreeRTOS\Source\stream_buffer.c(778): warning C5045: O compilador inserirá a mitigação de espectro para carga de memória se a opção /Qspectre for especificada
+  C:\Users\aflav\OneDrive\Documentos\GitHub\train-track-crossing-simulation\FreeRTOSv10.0.1\FreeRTOS\Source\stream_buffer.c(770) : observação: o intervalo 'xBytesAvailable' do índice verificado por comparação nessa linha
+  C:\Users\aflav\OneDrive\Documentos\GitHub\train-track-crossing-simulation\FreeRTOSv10.0.1\FreeRTOS\Source\stream_buffer.c(778) : observação: chamada a feeds nessa linha
+C:\Users\aflav\OneDrive\Documentos\GitHub\train-track-crossing-simulation\FreeRTOSv10.0.1\FreeRTOS\Source\stream_buffer.c(772): warning C5045: O compilador inserirá a mitigação de espectro para carga de memória se a opção /Qspectre for especificada
+  C:\Users\aflav\OneDrive\Documentos\GitHub\train-track-crossing-simulation\FreeRTOSv10.0.1\FreeRTOS\Source\stream_buffer.c(770) : observação: o intervalo 'xBytesAvailable' do índice verificado por comparação nessa linha
+  C:\Users\aflav\OneDrive\Documentos\GitHub\train-track-crossing-simulation\FreeRTOSv10.0.1\FreeRTOS\Source\stream_buffer.c(772) : observação: chamada a feeds nessa linha
+C:\Users\aflav\OneDrive\Documentos\GitHub\train-track-crossing-simulation\FreeRTOSv10.0.1\FreeRTOS\Source\stream_buffer.c(753): warning C5045: O compilador inserirá a mitigação de espectro para carga de memória se a opção /Qspectre for especificada
+  C:\Users\aflav\OneDrive\Documentos\GitHub\train-track-crossing-simulation\FreeRTOSv10.0.1\FreeRTOS\Source\stream_buffer.c(745) : observação: o intervalo 'xBytesAvailable' do índice verificado por comparação nessa linha
+  C:\Users\aflav\OneDrive\Documentos\GitHub\train-track-crossing-simulation\FreeRTOSv10.0.1\FreeRTOS\Source\stream_buffer.c(753) : observação: chamada a feeds nessa linha
+C:\Users\aflav\OneDrive\Documentos\GitHub\train-track-crossing-simulation\FreeRTOSv10.0.1\FreeRTOS\Source\stream_buffer.c(1094): warning C5045: O compilador inserirá a mitigação de espectro para carga de memória se a opção /Qspectre for especificada
+  C:\Users\aflav\OneDrive\Documentos\GitHub\train-track-crossing-simulation\FreeRTOSv10.0.1\FreeRTOS\Source\stream_buffer.c(1090) : observação: o intervalo 'xCount' do índice verificado por comparação nessa linha
+  C:\Users\aflav\OneDrive\Documentos\GitHub\train-track-crossing-simulation\FreeRTOSv10.0.1\FreeRTOS\Source\stream_buffer.c(1094) : observação: chamada a feeds nessa linha
+C:\Users\aflav\OneDrive\Documentos\GitHub\train-track-crossing-simulation\FreeRTOSv10.0.1\FreeRTOS\Source\stream_buffer.c(1086): warning C5045: O compilador inserirá a mitigação de espectro para carga de memória se a opção /Qspectre for especificada
+  C:\Users\aflav\OneDrive\Documentos\GitHub\train-track-crossing-simulation\FreeRTOSv10.0.1\FreeRTOS\Source\stream_buffer.c(1073) : observação: o intervalo 'xCount' do índice verificado por comparação nessa linha
+  C:\Users\aflav\OneDrive\Documentos\GitHub\train-track-crossing-simulation\FreeRTOSv10.0.1\FreeRTOS\Source\stream_buffer.c(1086) : observação: chamada a feeds nessa linha
+C:\Users\aflav\OneDrive\Documentos\GitHub\train-track-crossing-simulation\FreeRTOSv10.0.1\FreeRTOS\Source\stream_buffer.c(1043): warning C5045: O compilador inserirá a mitigação de espectro para carga de memória se a opção /Qspectre for especificada
+  C:\Users\aflav\OneDrive\Documentos\GitHub\train-track-crossing-simulation\FreeRTOSv10.0.1\FreeRTOS\Source\stream_buffer.c(1039) : observação: o intervalo 'xCount' do índice verificado por comparação nessa linha
+  C:\Users\aflav\OneDrive\Documentos\GitHub\train-track-crossing-simulation\FreeRTOSv10.0.1\FreeRTOS\Source\stream_buffer.c(1043) : observação: chamada a feeds nessa linha
+C:\Users\aflav\OneDrive\Documentos\GitHub\train-track-crossing-simulation\FreeRTOSv10.0.1\FreeRTOS\Source\timers.c(557): warning C5045: O compilador inserirá a mitigação de espectro para carga de memória se a opção /Qspectre for especificada
+  C:\Users\aflav\OneDrive\Documentos\GitHub\train-track-crossing-simulation\FreeRTOSv10.0.1\FreeRTOS\Source\timers.c(554) : observação: o intervalo 'xNextExpireTime' do índice verificado por comparação nessa linha
+  C:\Users\aflav\OneDrive\Documentos\GitHub\train-track-crossing-simulation\FreeRTOSv10.0.1\FreeRTOS\Source\timers.c(557) : observação: chamada a feeds nessa linha
+C:\Users\aflav\OneDrive\Documentos\GitHub\train-track-crossing-simulation\FreeRTOSv10.0.1\FreeRTOS\Demo\Common\Minimal\blocktim.c(499): warning C5045: O compilador inserirá a mitigação de espectro para carga de memória se a opção /Qspectre for especificada
+  C:\Users\aflav\OneDrive\Documentos\GitHub\train-track-crossing-simulation\FreeRTOSv10.0.1\FreeRTOS\Demo\Common\Minimal\blocktim.c(493) : observação: o intervalo 'x' do índice verificado por comparação nessa linha
+  C:\Users\aflav\OneDrive\Documentos\GitHub\train-track-crossing-simulation\FreeRTOSv10.0.1\FreeRTOS\Demo\Common\Minimal\blocktim.c(499) : observação: chamada a feeds nessa linha
+C:\Users\aflav\OneDrive\Documentos\GitHub\train-track-crossing-simulation\FreeRTOSv10.0.1\FreeRTOS\Demo\Common\Minimal\EventGroupsDemo.c(883): warning C5045: O compilador inserirá a mitigação de espectro para carga de memória se a opção /Qspectre for especificada
+  C:\Users\aflav\OneDrive\Documentos\GitHub\train-track-crossing-simulation\FreeRTOSv10.0.1\FreeRTOS\Demo\Common\Minimal\EventGroupsDemo.c(865) : observação: o intervalo 'uxBit' do índice verificado por comparação nessa linha
+  C:\Users\aflav\OneDrive\Documentos\GitHub\train-track-crossing-simulation\FreeRTOSv10.0.1\FreeRTOS\Demo\Common\Minimal\EventGroupsDemo.c(883) : observação: chamada a feeds nessa linha
+C:\Users\aflav\OneDrive\Documentos\GitHub\train-track-crossing-simulation\FreeRTOSv10.0.1\FreeRTOS\Demo\Common\Minimal\integer.c(75): warning C5045: O compilador inserirá a mitigação de espectro para carga de memória se a opção /Qspectre for especificada
+  C:\Users\aflav\OneDrive\Documentos\GitHub\train-track-crossing-simulation\FreeRTOSv10.0.1\FreeRTOS\Demo\Common\Minimal\integer.c(73) : observação: o intervalo '' do índice verificado por comparação nessa linha
+  C:\Users\aflav\OneDrive\Documentos\GitHub\train-track-crossing-simulation\FreeRTOSv10.0.1\FreeRTOS\Demo\Common\Minimal\integer.c(75) : observação: chamada a feeds nessa linha
+C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppCommon.targets(755,5): error MSB8084: Saída estruturada inválida de 'CL.exe': Não é possível analisar a notificação JsonRpc: 'Cannot transcode invalid UTF-8 JSON text to UTF-16 string.'.
+  WIN32.vcxproj -> C:\Users\aflav\OneDrive\Documentos\GitHub\train-track-crossing-simulation\FreeRTOSv10.0.1\FreeRTOS\Demo\WIN32-MSVC\Debug\RTOSDemo.exe
